@@ -17,4 +17,4 @@ jobs:
       - run: yarn
       - run: yarn test
       - run: yarn build
-      - run: curl -X POST -H 'Content-Type:application/json' -u ${{ env.BACKEND_USER }}:${{ env.BACKEND_PASSWORD }} -d @"build/proposals.json" http://199.192.18.169:3001/proposal/sync
+      - run: curl -X POST -H 'Content-Type:application/json' -u ${{ env.BACKEND_USER }}:${{ env.BACKEND_PASSWORD }} -d @"build/proposals.json" http://199.192.18.169:3000/proposal/sync
