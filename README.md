@@ -1,7 +1,7 @@
 # Emberswap Governance
 This GitHub repo contains the proposals and snapshots needed for community governance of EmberSwap.
 
-Proposal Format
+## Proposal Format
 ```sh
 PROPOSAL: [Your proposal title here]
 
