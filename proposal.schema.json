@@ -1,0 +1,151 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://docs.emberswap.com/governance",
+  "title": "EmberSwap Proposal List",
+  "description": "Schema for list of proposals compatible with the EmberSwap voting system",
+  "definitions": {
+    "Version": {
+      "type": "object",
+      "description": "The version of the list, used in change detection",
+      "examples": [
+        {
+          "major": 1,
+          "minor": 0,
+          "patch": 0
+        }
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "major": {
+          "type": "integer",
+          "description": "The major version of the list. Must be incremented when tokens are removed from the list or token addresses are changed.",
+          "minimum": 0,
+          "examples": [
+            1,
+            2
+          ]
+        },
+        "minor": {
+          "type": "integer",
+          "description": "The minor version of the list. Must be incremented when tokens are added to the list.",
+          "minimum": 0,
+          "examples": [
+            0,
+            1
+          ]
+        },
+        "patch": {
+          "type": "integer",
+          "description": "The patch version of the list. Must be incremented for any changes to the list.",
+          "minimum": 0,
+          "examples": [
+            0,
+            1
+          ]
+        }
+      },
+      "required": [
+        "major",
+        "minor",
+        "patch"
+      ]
+    },
+    "ProposalInfo": {
+      "type": "object",
+      "description": "Metadata for a proposal",
+      "additionalProperties": false,
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "The a succinct title as displayed in the list",
+          "examples": [
+            "Should EmberSwap change its color scheme to green?"
+          ]
+        },
+        "content": {
+          "type": "string",
+          "description": "Markdown content of the proposal shown when fully expanded",
+          "examples": [
+            "This is longer form content which fully describes what is being proposed."
+          ]
+        },
+        "strategy": {
+          "type": "string",
+          "description": "What type of strategy for voting should this proposal do?",
+          "enum": ["single-choice"],
+          "examples": [
+            "single-choice"
+          ]
+        },
+        "options": {
+          "type": "array",
+          "description": "An array of options available for this proposal",
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 10,
+          "examples": [
+            "YES",
+            "NO",
+            "April",
+            "May"
+          ]
+        },
+        "snapshotBlock": {
+          "type": "string",
+          "description": "The block where this snapshot was taken",
+          "pattern": "^[0-9+\\-%/$.]+$",
+          "minLength": 1,
+          "maxLength": 12,
+          "examples": [
+            "2668859"
+          ]
+        },
+        "endBlock": {
+          "type": "string",
+          "description": "The block where this proposals vote is finished",
+          "pattern": "^[0-9+\\-%/$.]+$",
+          "minLength": 1,
+          "maxLength": 12,
+          "examples": [
+            "2668859"
+          ]
+        }
+      },
+      "required": [
+        "title",
+        "content",
+        "strategy",
+        "options",
+        "snapshotBlock",
+        "endBlock"
+      ]
+    }
+  },
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "The timestamp of this list version; i.e. when this immutable version of the list was created"
+    },
+    "version": {
+      "$ref": "#/definitions/Version"
+    },
+    "proposals": {
+      "type": "object",
+      "description": "The list of proposals",
+      "patternProperties": {
+        "^[a-f0-9]{64}$": {
+          "$ref": "#/definitions/ProposalInfo"
+        }
+      }
+    }
+  },
+  "required": [
+    "timestamp",
+    "version",
+    "proposals"
+  ]
+}

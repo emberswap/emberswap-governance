@@ -1,0 +1,49 @@
+{
+  "name": "@emberswap/emberswap-governance",
+  "version": "0.0.1",
+  "description": "The emberswap default token list",
+  "main": "build/proposals.json",
+  "scripts": {
+    "test": "mocha",
+    "build": "rimraf build && mkdir -p build && node internal/write.js > build/proposals.json",
+    "prepare": "husky install",
+    "prepublishOnly": "npm test && npm run build",
+    "pre-commit": "lint-staged"
+  },
+  "files": [
+    "build/proposals.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emberswap/emberswap-governance.git"
+  },
+  "keywords": [
+    "emberswap",
+    "governance",
+    "voting",
+    "snapshot"
+  ],
+  "author": "bchpete <bchpete@incinerate.cash>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/emberswap/emberswap-governance/issues"
+  },
+  "homepage": "https://github.com/emberswap/emberswap-governance#readme",
+  "devDependencies": {
+    "@commitlint/config-conventional": "^13.1.0",
+    "@ethersproject/address": "^5.0.2",
+    "@ethersproject/solidity": "^5.3.0",
+    "@octokit/rest": "^18.6.2",
+    "ajv": "^6.12.3",
+    "chai": "^4.2.0",
+    "husky": "^7.0.2",
+    "lodash": "^4.17.21",
+    "mocha": "^8.0.1",
+    "rimraf": "^3.0.2",
+    "xlsx": "^0.17.0"
+  },
+  "dependencies": {
+    "commitlint": "^13.1.0",
+    "lint-staged": "^11.1.2"
+  }
+}

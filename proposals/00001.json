@@ -1,0 +1,11 @@
+{
+    "title": "Is this an example?",
+    "content": "This is a description do describe your proposal.",
+    "strategy": "single-choice",
+    "options": [
+        "Yes",
+        "No"
+    ],
+    "snapshotBlock": "3777927",
+    "endBlock": "3977927"
+}

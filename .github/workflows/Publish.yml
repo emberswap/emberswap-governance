@@ -1,0 +1,20 @@
+name: Publish
+
+on:
+  push:
+env:
+  BACKEND_USER: ${{ secrets.BACKEND_USER }}
+  BACKEND_PASSWORD: ${{ secrets.BACKEND_PASSWORD }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 15.1.0
+      - run: yarn
+      - run: yarn test
+      - run: yarn build
+      - run: curl -X POST -H 'Content-Type:application/json' -u ${{ env.BACKEND_USER }}:${{ env.BACKEND_PASSWORD }} -d @"build/proposals.json" http://199.192.18.169:3001/proposal/sync
