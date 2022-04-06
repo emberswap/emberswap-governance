@@ -1,0 +1,11 @@
+{
+    "title": "Farm BCH/FlexUsd removal and redistribute equally to ember/bch and ember/flexUsd pairs",
+    "content": "1. PROPOSAL DETAILS\n\n Remove the Bch/flexUsd farm and redistribute the rewards between these ember paired farms equally. The Bch/flexUsd is a non native pair with a hughe allocation, allowing non ember owners to earn a lot of power in the ecosystem without real implication on it. That is why, this proposal is about removing so much power from non native tokens and increase the most important pairs (bch/ember and flexusd/ember) redistributing bch/flex allocation between the previous mentioned farms and routing swaps from bch to flexUsd trhough ember pairs. \n\n\n\n2. ECONOMIC IMPACT - We will remove the biggest liquidity pool, bch/flexUsd, risking to loose a big amount of TVL in the exchange and some trading volume. On the other hand, we are removing non native tokens from such a big spot in the emissions, helping ember pairs to be more atractive and avoiding sell presurre from a non ember farm owner.\n\n\n\n3. IMPACT ON USERS - Users will have more atractive ember pairs at the price of routing bch/flex swaps. On the other hand, there wont be a direct swap between bch/flexUsd. \n\n\n\n4. EXPECTED POSITIVE IMPACT - We will have more liquidity in the biggest ember pairs (bch-flexUsd pairs) so we will benefit ember holders as much as we will avoid selling pressure from non ember holders mitigatin high APR hunters. Also, routing will provide ember trading volume and more fees.\n\n\n\n5. KNOWN POTENTIAL NEGATIVES OR DOWNSIDES - Users can prefer avoid the usage of the dex instead of moving to the ember pairs, lowering liquidity and usage in such an importan pair.",
+    "strategy": "single-choice",
+    "options": [
+        "Yes",
+        "No"
+    ],
+    "snapshotBlock": "3900000",
+    "endBlock": "3975000"
+}
