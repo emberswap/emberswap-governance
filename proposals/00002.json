@@ -1,0 +1,11 @@
+{
+    "title": "Farm BCH/FlexUSD removal and redistribute equally to EMBER/BCH and EMBER/FlexUSD pairs",
+    "content": "1. PROPOSAL DETAILS\n\n Remove the BCH/FlexUSD farm and redistribute the rewards between these EMBER paired farms equally. The BCH/FlexUSD isn't an EMBER pair with a huge allocation, allowing non EMBER owners to earn a lot of power in the ecosystem without real implication on it. That is why, this proposal is about removing so much power from non native tokens and increase the most important pairs (BCH/EMBER and FlexUSD/EMBER) redistributing BCH/FlexUSD allocation between the previous mentioned farms and routing swaps from BCH to FlexUSD through \n\n&nbsp; \n\n2. ECONOMIC IMPACT - We will remove the biggest liquidity pool, BCH/FlexUSD, risking to lose a big amount of TVL in the exchange and some trading volume. On the other hand, we are removing non native tokens from such a big spot in the emissions, helping EMBER pairs to be more atractive and avoiding sell presurre from a non EMBER farm owner.\n\n &nbsp;\n\n3. IMPACT ON USERS - Users will have more atractive EMBER pairs at the price of routing BCH/FlexUSD swaps. On the other hand, there won't be a direct swap between BCH/FlexUSD. \n\n &nbsp;\n\n4. EXPECTED POSITIVE IMPACT - We will have more liquidity in the biggest EMBER pairs (BCH/FlexUSD pairs) so we will benefit EMBER holders as much as we will avoid selling pressure from non EMBER holders mitigatin high APR hunters. Also, routing will provide EMBER trading volume and more fees.\n\n &nbsp;\n\n5. KNOWN POTENTIAL NEGATIVES OR DOWNSIDES - Users can prefer avoid the usage of the DEX instead of moving to the EMBER pairs, lowering liquidity and usage in such an important pair.",
+    "strategy": "single-choice",
+    "options": [
+        "Yes",
+        "No"
+    ],
+    "snapshotBlock": "3894404",
+    "endBlock": "4000000"
+}

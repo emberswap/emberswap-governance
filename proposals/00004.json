@@ -1,0 +1,11 @@
+{
+    "title": "Removing from Vault 'No Lockup' and '1 Day' lock up options",
+    "content": "1. PROPOSAL DETAILS\n\nRemove the no lockup and 1 day lockup options from the Vault encouraging people to lock their ember a longer time with higuer rewards.\n\n &nbsp; \n\n2. ECONOMIC IMPACT - Higher lockups will have higher APR, getting more EMBER out of circulation and possibly removing some sell presure. Also, it encourages long term actions because of the limited short-term staking options. \n\n &nbsp; \n\n3. IMPACT ON USERS - Users will lose their short term staking option but long term users will be rewarded with higher APRs. \n\n &nbsp; \n\n4. EXPECTED POSITIVE IMPACT - More tokens will be locked for a longer time because of higher APRs and less options. This will increase the long term supporters. \n\n &nbsp; \n\n5. KNOWN POTENTIAL OR NEGATIVE DOWNSIDES - People refusing to move to longer lock times can run away from ember and create a momentum sell pressure.",
+    "strategy": "single-choice",
+    "options": [
+        "Yes",
+        "No"
+    ],
+    "snapshotBlock": "3894404",
+    "endBlock": "4106596"
+}

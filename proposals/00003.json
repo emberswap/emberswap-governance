@@ -1,0 +1,11 @@
+{
+    "title": "Reduce the minimum required for a proposal to pass to 30%",
+    "content": "1. PROPOSAL DETAILS\n\n This proposal intends to reduce the minimum required votes from a proposal to pass. \n\n &nbsp; \n\n2. ECONOMIC IMPACT - None \n\n &nbsp; \n\n3. IMPACT ON USERS - Users will have easier decision making because of the lowered threshold. \n\n &nbsp; \n\n4. EXPECTED POSITIVE IMPACT - It will be easier to take decisions, also encourage people to participate in democracy with a lower threshold. \n\n&nbsp; \n\n5. KNOWN POTENTIAL OR NEGATIVE DOWNSIDES - Lower thresholds could mean easier entrance to harmful proposals if the community do not participate actively.",
+    "strategy": "single-choice",
+    "options": [
+        "Yes",
+        "No"
+    ],
+    "snapshotBlock": "3894404",
+    "endBlock": "4000000"
+}
