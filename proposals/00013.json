@@ -1,0 +1,11 @@
+{
+    "title": "Change boosted farms to monthly volume",
+    "content": "PROPOSAL DETAILS\n\nEvery 21th of each month 7 EMBER paired tokens with the biggest monthly volume on X:EMBER trades will get 7 boost farms. If a token of these top 7 has already a farm because it's on top 14 on marketcap.cash the boost will be added on the current farm.\n\n If this proposal is passed, it will first be adopted by the next farm reallocation`(21/05/2022)`.\n\n&nbsp; \n\nECONOMIC IMPACT\n\nThis proposal will remove the current 7 boosted farms according to the preceeding proposal titled `'Up to 21 EMBER-denominated farms (top 14 TVL + 7 boosts)'` and reallocate the allocation towards 7 EMBER paired tokens instead based on monthly volume.\n\n &nbsp; \n\nIMPACT ON USERS\n\nFarms will be based purely on TVL and DEX-specific performance indicators and community input(manual boosts via governance will be excluded).\n\n &nbsp; \n\nEXPECTED POSITIVE IMPACT\n\nBasing the 7 boosted farms on monthly volume instead of community input should increase the total monthly trading volume.\n\n &nbsp; \n\nKNOWN POTENTIAL OR NEGATIVE DOWNSIDES\n\nWash-trading is known the be a problem on MistSwap and will most likely also be on EmberSwap giving bad actors an easier opportunity to get a farm with little to no community backing the token.",
+    "strategy": "single-choice",
+    "options": [
+        "Yes - Adopt purely volume based boosts",
+        "No - Keep both governance and volume based boosts"
+    ],
+    "snapshotBlock": "4174637",
+    "endBlock": "4551655"
+}
