@@ -1,0 +1,11 @@
+{
+    "title": "Change boosted farms to be setted monthly",
+    "content": "1. PROPOSAL DETAILS\n\n Add boosted farms monthly with the new allocations. A new option for important decisions will be added too. Important decissions will need above 85% (based on previous proposals) of approval to pass. The first important decission added will be instant boost farms, that wont wait to monthly allocation but will require a 84% approval. These proposals can be a 3 option proposal so if instant approval is not over 85% but it is approved then it will be added to the monthly boosted farms. \n\n &nbsp; \n\n2. ECONOMIC IMPACT - Investors will have stability in the farms, encouraging liquidity providers to participate in the ecosystem. \n\n &nbsp; \n\n3. IMPACT ON USERS - More waiting time in the desired farms. \n\n &nbsp; \n\n4. EXPECTED POSITIVE IMPACT - More stability in the farms will help investors and liquidity providers to make choices and to step into the ecosystem. \n\n&nbsp; \n\n5. KNOWN POTENTIAL OR NEGATIVE DOWNSIDES - Farms wont be inmediatily added to the boosted ones, providing a timeframe where emberswap wont be so agile adopting new project opportunities.",
+    "strategy": "single-choice",
+    "options": [
+        "Yes",
+        "No"
+    ],
+    "snapshotBlock": "CurrentBlock",
+    "endBlock": "6d + 1block"
+}
