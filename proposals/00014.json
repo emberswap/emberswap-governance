@@ -1,0 +1,11 @@
+{
+    "title": "Guidelines for three option proposals",
+    "content": "1. PROPOSAL DETAILS\n\n When a multiple options proposals is up, the guideline for approval will be the following: Consider SIMPLE MAJORITY AS greater support than any of the other options, and ABSOLUTE MAJORITY as greater support than 50%. The approval condition is SIMPLE MAJORITY FOR NON_DENIAL options AND ABSOLUTE MAJORITY FOR DENIAL OPTION. If the denial option has simple majority, a new proposal should be placed removing the less supported option. \n\n &nbsp; \n\n2. ECONOMIC IMPACT - NONE \n\n &nbsp; \n\n3. IMPACT ON USERS - NONE \n\n &nbsp; \n\n4. EXPECTED POSITIVE IMPACT - Clarifying how multiple optins proposals work. \n\n&nbsp; \n\n5. KNOWN POTENTIAL OR NEGATIVE DOWNSIDES - NONE",
+    "strategy": "single-choice",
+    "options": [
+        "Yes",
+        "No"
+    ],
+    "snapshotBlock": "4189732",
+    "endBlock": "4299695"
+} 
