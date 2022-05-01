@@ -1,0 +1,11 @@
+{
+    "title": "Change 7 boosted farms to 4 top ember:x pair by volume",
+    "content": "1. PROPOSAL DETAILS\n\n Change 7 boosted farms to 4 top ember:x pair by Volume on dex - community approved monthly boosted.  \n\n &nbsp; \n\n2. ECONOMIC IMPACT - 1. This will lower boosted farms from 7 to 4, giving better aprs to the most active ember pairs.\n\n 2. If a normal farm makes it to top 4 monthly volume and community approves to get the boost, it will be added to the current farm.  \n\n &nbsp; \n\n3. IMPACT ON USERS - These 4 farms must be the top 4 by volume but also approved from our community with 4 proposals 1 for each boosted farm. So even if someone wants to steal a farm we will stop him. If a farm doesn't get the approval of community then there will be 3 boosted farms for this month and the 3 that got community's approval will get the share of the 4th that didn't get it.  \n\n &nbsp; \n\n4. EXPECTED POSITIVE IMPACT \n\n 1.More volume on dex\n\n2.Better apr to boosted farms\n\n3.Community disapproval to possible washtrader.  \n\n&nbsp; \n\n5. KNOWN POTENTIAL OR NEGATIVE DOWNSIDES - Current boosted farms will have to compete with others to keep having a farm.",
+    "strategy": "single-choice",
+    "options": [
+        "Yes, change 7 boosted farms to 4 boosted monthly top volume ember:x pairs and community approved.",
+        "No, keep 7 boosted farms as it is."
+    ],
+    "snapshotBlock": "4278225",
+    "endBlock": "4388188"
+} 

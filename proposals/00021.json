@@ -1,0 +1,11 @@
+{
+    "title": "Change 14 top TVL to 10 biggest liquidity",
+    "content": "1. PROPOSAL DETAILS\n\n Change 14 top TVL from marketcap.cash to 10 biggest liquidity x:ember pairs on emberswap. \n\n &nbsp; \n\n2. ECONOMIC IMPACT - There are many tokens on top 14 TVL on marketcap.cash that have farms on emberswap but they have poor liquidity and drain a lot of ember. Picking 10 top ember paired liquidity will firstly lower farms number by 4 and reward the pairs that really have activity on our dex and creating fees. \n\n &nbsp; \n\n3. IMPACT ON USERS - 1.Having better aprs.\n\n2.The farms will be 4 less and more active.  \n\n &nbsp; \n\n4. EXPECTED POSITIVE IMPACT \n\n 1. Better apr by lowering farms number.\n\n2. Tokens that would Iike to get a farm they should have liquidity with ember and compete with other pairs to be on top 10.\n\n3. Low liquidity farms that drain ember and dumb them for bch or flexusd will stop. \n\n&nbsp; \n\n5. KNOWN POTENTIAL OR NEGATIVE DOWNSIDES - None, since we don't risk to lose liquidity, because the 4 farms that we remove have all together about $1.000",
+    "strategy": "single-choice",
+    "options": [
+        "Yes change 14 top TVL from marketcap.cash to top 10 Ember:x liquidity pairs on dex.",
+        "No keep giving tokens without activity free farms"
+    ],
+    "snapshotBlock": "4278225",
+    "endBlock": "4388188"
+} 

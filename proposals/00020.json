@@ -1,0 +1,11 @@
+{
+    "title": "Remove 7 Days Vault",
+    "content": "1. PROPOSAL DETAILS\n\n Remove 7 Days Vault and reallocate allocation towards the remaining vaults. \n\n &nbsp; \n\n2. ECONOMIC IMPACT - There is no choice to stake ember on vault for less than 30 days, so ember will be locked for more time and will not be sold as soon as price moves higher. \n\n &nbsp; \n\n3. IMPACT ON USERS - Short terms stakers will not have voting rights. Only long term holders have the right to vote. \n\n &nbsp; \n\n4. EXPECTED POSITIVE IMPACT - Higher apr to long term holders and unique voting access. \n\n&nbsp; \n\n5. KNOWN POTENTIAL OR NEGATIVE DOWNSIDES - The 7day vault stakers could sell their ember if they don't want to move to long term vaults.",
+    "strategy": "single-choice",
+    "options": [
+        "Yes, remove 7 days vault",
+        "No, keep 7 days vault"
+    ],
+    "snapshotBlock": "4278225",
+    "endBlock": "4388188"
+} 
