@@ -1,0 +1,12 @@
+{
+    "title": "Change boosted farms to be setted monthly",
+    "content": "1. PROPOSAL DETAILS\n\n As opposed to 'Measures to stabilize Ember and increase TVL', this proposal adds incremental changes that will allow improve the ember distribution where it is needed and create liquidity for tradings in user selected farms, avoiding big risk big impact changes believing in incremental changes. It should be considered that one proposal approved rejects the other. This is proposed to be implemented in the next allocation (21) and those are the proposed changes: \n-Change reward allocation from 70 farms/30 vaults to 45/25 and distribute between each farm and vault the missing 30% by TVL.\n-Reduce farms from 14 TVL to top3 and 7 manual (and fire)\n-Remove 7 days vault. \n-Reduce manual base allocation to 21% from 1/3 (3% each from 4.5%).  \n\n &nbsp; \n\n2. ECONOMIC IMPACT - DEX TVL will be impulsed automatically improving allocation for demanded pairs. This type allocation requires the base allocation to set minimun to biggest pairs (bch/flexUsd) that can secure a reasonable minimun of TVL, and that is why we decrease the manual farms allocation and reduce the farms. Also, we will be removing 7Days vault incentivating longer time frame vaults with this vault allocation and the new TVL distribution. \n\n &nbsp; \n\n3. IMPACT ON USERS - They will experience an increase into the liquidity of the pairs with more TVL and decrease in lower pairs, having less farm pairs too. Also, vaults rewards will increase and long term vault users will be rewarded. \n\n &nbsp; \n\n4. EXPECTED POSITIVE IMPACT - We will allocate more ember where it is needed, including vaults. Removing not used pairs and trying to bring liquidity and trading to ember. \n\n&nbsp; \n\n5. KNOWN POTENTIAL OR NEGATIVE DOWNSIDES - A massive TVL somewhere can disturb the allocations. That is why base allocation is key to mitigate this and keep vaults and farms protected. We will have less pairs and trading opportunities but we will try to bring enough liquidity to some pairs to atract trading. Future proposals can reduce manual farms too to increase allocation even further.",
+    "strategy": "single-choice",
+    "options": [
+        "Yes - as is",
+        "Yes - discuss and update some params",
+        "No - i prefer other proposals"
+    ],
+    "snapshotBlock": "CurrentBlock",
+    "endBlock": "CurrentBlock+sameDaysOpposedProposal"
+} 

@@ -1,0 +1,11 @@
+{
+    "title": "Change boosted farms to be setted monthly",
+    "content": "1. PROPOSAL DETAILS\n\n Vault to be harvest on every moment but with a 10% exit fee. \n\n &nbsp; \n\n2. ECONOMIC IMPACT - Vaults will be more interesting since the ember wont be completely locked. Also, ember into the market will be progressive and 10% fee will help to treasury. \n\n &nbsp; \n\n3. IMPACT ON USERS - More incentives towards vaults, as ember will be available. \n\n &nbsp; \n\n4. EXPECTED POSITIVE IMPACT - More ember into the vaults and an impulse to reasury funds. \n\n&nbsp; \n\n5. KNOWN POTENTIAL OR NEGATIVE DOWNSIDES - More ember in the market daily, but this is not an objective downside since sell pressure will be lower than a big one at a time.",
+    "strategy": "single-choice",
+    "options": [
+        "Yes",
+        "No"
+    ],
+    "snapshotBlock": "4189732",
+    "endBlock": "4299695"
+} 
