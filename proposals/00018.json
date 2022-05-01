@@ -7,6 +7,6 @@
         "Yes - discuss and update some params",
         "No - i prefer other proposals"
     ],
-    "snapshotBlock": "CurrentBlock",
-    "endBlock": "CurrentBlock+sameDaysOpposedProposal"
+    "snapshotBlock": "4278031",
+    "endBlock": "4387994"
 } 
