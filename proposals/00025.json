@@ -1,0 +1,11 @@
+{
+    "title": "Add bosted farm - 1BCH",
+    "content": "PROPOSAL DETAILS\n\n &nbsp; \n\nRefer to the preceeding proposal titled `Up to 21 EMBER-denominated farms (top 14 TVL + 7 boosts)` for more details. This proposal only proposes that the following token is to receive 1 of the boosted spots for the 1/7 of the 1/3 (i.e. 1/21) of the emission allocation going to farms. If this farm makes it to the monthly top 14 spots based on TVL as well, then this boost adds to its emission indefinitely, until another governance proposal removes it or until other governance proposals add more than 7 boosts and this particular one falls our due to low trading volume (not in the top 7 of the boosted ones).\n\n &nbsp; \n\nThe proposed boosted token is: 1BCH.\n\n &nbsp; \n\nThe proposed boosted token's market details are at: https://www.marketcap.cash/token/1BCH",
+    "strategy": "single-choice",
+    "options": [
+        "Yes",
+        "No"
+    ],
+    "snapshotBlock": "4265747",
+    "endBlock": "4375710"
+}
