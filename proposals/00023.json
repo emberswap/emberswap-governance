@@ -1,0 +1,12 @@
+{
+    "title": "Add single staking vaults BCH and flexUSD",
+    "content": "Economic impact\n\n1. Stake BCH earn EMBER\n\n2. Stake flexUSD earn EMBER\n\nCan't harvest without withdrawing. Withdraw has a 10% tax on stake\n\n&nbsp; \n\nTax will be used with EMBER from treasury to make LP's and build more liquidity. BCH tax from BCH vault will create BCH/EMBER and tax from flexUSD vault will create flexUSD/EMBER in treasury.\n\n&nbsp; \n\nImpact on users\n\nManual farms change from 21% total (3% each) to 14% (2% each) and give 3.5% to each to vault (7% total). This means manual farms will get some lower APRs but new liquidity will come in to single staking vaults. We could have just BCH single staking vault and not flexUSD, giving 7% to only 1 vault instead of 3.5% to 2 vaults. LP's will be created every month with allocation.\n\n&nbsp; \n\nExpected impact\n\nA lot of single stakers will bring in liquidity in BCH and flexUSD and if they want to harvest Ember they will have to pay 10% tax on BCH or flexUSD to get the farmed Ember.\n\n&nbsp; \n\nExpected positive impact\n\nLower selling pressure because they can't harvest without withdrawing and paying tax.\n\n&nbsp; \n\nKnown potential negatives or downsides\n\nManual farms will lose liquidity if they dont like this small change on APRs.",
+    "strategy": "single-choice",
+    "options": [
+        "Yes add BCH and flexUSD single staking vaults",
+        "No dont add single staking vaults",
+        "Add only BCH single staking vault"
+    ],
+    "snapshotBlock": "4400858",
+    "endBlock": "4557948"
+} 
