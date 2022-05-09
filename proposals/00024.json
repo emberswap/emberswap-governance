@@ -1,0 +1,11 @@
+{
+    "title": "Final decision regarding farm allocation",
+    "content": "With multiple proposals passing at around the same time(`Change 14 top TVL to 10 biggest liquidity` and `Alternative to 'Measures to stabilize Ember and increase TVL' proposal`) interfering with each other, there have been some uncertainty on whether one proposal or another would be implemented. This proposal has been made to put an end to some of that uncertantity. \n\nThese are the two options available for voting \n\n&nbsp; \n\n Option 1\n\nOn 21, set top 3 marketcap.cash farms + 7 manual instead with allocation based on marketcap.cash instead of top 10 dex liquidity + 7 manual with allocation based on dex liquidity.\n\n&nbsp; \n\nOption 2\n\nOn 21, set top 10 dex liquidity as It is right now with allocation based on dex liquidity + 7 manual vs top 3 by marketcap.cash with allocation based on marketcap.cash + 7 manual.",
+    "strategy": "single-choice",
+    "options": [
+        "I prefer Option 1'",
+        "I prefer Option 2'"
+    ],
+    "snapshotBlock": "4404884",
+    "endBlock": "4514847"
+} 
