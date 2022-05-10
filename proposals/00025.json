@@ -1,0 +1,11 @@
+{
+    "title": "Remove boost from BPAD/EMBER farm.",
+    "content": "Remove boost from BPAD/EMBER farm.\n\n&nbsp; \n\n Economic impact\n\nBPAD farm will get less APR.\n\n&nbsp; \n\nImpact on users\n\nThe boost will move automatically to flexUSD/EMBER so they will see better APR on that farm.\n\n&nbsp; \n\nExpected impact\n\nLess liquidity on BPAD, more liquidity on flexUSD if any changes happen.\n\n&nbsp; \n\nExpected positive impact\n\nBetter flexUSD APR, less selling pressure on EMBER from BPAD farm.",
+    "strategy": "single-choice",
+    "options": [
+        "Yes remove the boost from BPAD, so flexUSD will get the boost.",
+        "No, keep it as it is and let flexUSD without boost."
+    ],
+    "snapshotBlock": "4420599",
+    "endBlock": "4530562"
+} 

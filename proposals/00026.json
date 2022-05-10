@@ -1,0 +1,11 @@
+{
+    "title": "Remove boost from PDA/EMBER farm and give it to LAW/EMBER.",
+    "content": "Remove boost from PDA/EMBER farm and give it to LAW/EMBER.\n\n&nbsp; \n\n Economic impact\n\nPDA farm will get less APR.\n\n&nbsp; \n\nImpact on users\n\nThe boost will move to LAW/EMBER so they will see better APR on that farm.\n\n&nbsp; \n\nExpected impact\n\nLess liquidity on PDA, more liquidity on LAW if any changes happen.\n\n&nbsp; \n\nExpected positive impact\n\nBetter LAW APR.",
+    "strategy": "single-choice",
+    "options": [
+        "Yes remove the boost from PDA, so LAW will get the boost. ",
+        "No, keep it as it is and let LAW without boost."
+    ],
+    "snapshotBlock": "4420599",
+    "endBlock": "4530562"
+} 
