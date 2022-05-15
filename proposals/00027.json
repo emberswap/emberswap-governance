@@ -1,0 +1,12 @@
+{
+    "title": "Add 2 vaults with 5% deposit fee and 4-year EMBER lock vault",
+    "content": "Economic impact\n\n1. Add BCH/flexUSD vault with 5% deposit fee.\n\n2. Add lawUSD/flexUSD vault with 5% deposit fee.\n\n3. Add 4-year lock EMBER vault with extra treasury reward. \n\n&nbsp; \n\nImpact on users\n\n1. Fees from lawUSD/flexUSD and BCH/flexUSD will be used weekly to buyback EMBER in treasury.\n\n2. EMBER from the treasury will be distributed to the 4-year lock EMBER vault. Calculated on a 4 year basis, giving daily 1/1460 of EMBER on treasury.\n\n&nbsp; \n\nExpected impact\n\n1. Getting liquidity and volatility on bch/flexUSD and lawUSD/flexUSD.\n\n2. Having 5% deposit fees on them and use the fees for weekly EMBER buyback on treasury.\n\n3. Use the EMBER that is being bought back from market through fees to reward the 4-year lock EMBER\n\nMoon\n\n&nbsp; \n\nExpected positive impact\n\nLambo",
+    "strategy": "single-choice",
+    "options": [
+        "Yes - as is",
+        "Yes - discuss and update some params",
+        "No"
+    ],
+    "snapshotBlock": "4484249",
+    "endBlock": "4594212"
+} 
