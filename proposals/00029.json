@@ -1,0 +1,11 @@
+{
+    "title": "Remove boost from LAWETP/EMBER and give it to GAME/EMBER",
+    "content": "Remove boost from LAWETP/EMBER farm.\n\n&nbsp; \n\n Economic impact\n\nLAWETP farm will be removed.\n\n&nbsp; \n\nImpact on users\n\nThe boost will go to a new GAME/EMBER farm.",
+    "strategy": "single-choice",
+    "options": [
+        "Yes - remove from LAWETP add to GAME",
+        "No - keep the LAWETP farm"
+    ],
+    "snapshotBlock": "4494209",
+    "endBlock": "4604172"
+} 

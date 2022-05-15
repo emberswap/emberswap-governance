@@ -1,0 +1,11 @@
+{
+    "title": "Remove boost from GOB/EMBER and give it to AXIEBCH/EMBER",
+    "content": "Remove boost from GOB/EMBER farm.\n\n&nbsp; \n\n Economic impact\n\nGOB farm will be removed.\n\n&nbsp; \n\nImpact on users\n\nThe boost will go to a new AXIEBCH/EMBER farm.",
+    "strategy": "single-choice",
+    "options": [
+        "Yes - remove from GOB add to AXIEBCH",
+        "No - keep the GOB farm"
+    ],
+    "snapshotBlock": "4494209",
+    "endBlock": "4604172"
+} 
