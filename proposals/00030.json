@@ -1,0 +1,11 @@
+{
+    "title": "Remove boost from BCH/EMBER and give it to LAWUSD/EMBER",
+    "content": "Remove boost from BCH/EMBER farm.\n\n&nbsp; \n\n Economic impact\n\nWith the upcoming farming scheme(21st) we are going to lose the lawUSD/EMBER farm while increasing the allocation to BCH/EMBER. By removing the boost from BCH and reallocating it to lawUSD we can keep the lawUSD/EMBER farm.\n\n&nbsp; \n\nImpact on users\n\nThe boost will go to the lawUSD/EMBER farm.",
+    "strategy": "single-choice",
+    "options": [
+        "Yes - remove from BCH add to lawUSD",
+        "No - keep the BCH allocation"
+    ],
+    "snapshotBlock": "4546612",
+    "endBlock": "4656575"
+} 
