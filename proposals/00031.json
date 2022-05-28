@@ -1,0 +1,11 @@
+{
+    "title": "Replace lawETP boost with a 365 BCH/flexUSD vault",
+    "content": "Replace lawETP boost and create 365 BCH/flexUSD vault.\n\n&nbsp; \n\n Expected impact\n\n1.Some more BCH/flexUSD will flow in to the DEX and volatility will generate more fees for our treasury. Since it's a 365 vault this liquidity will stay here for long not just drain EmberSwap and sell for a fast profit.\n\n&nbsp; \n\n2. Every 21th use the fees on flexUSD/BCH with EMBER from treasury to create flexUSD/EMBER and BCH/EMBER LP's. \n\n&nbsp; \n\nImpact on users\n\n1. Users will see EmberSwap becoming more sustainable/stable if not bullish.\n\n&nbsp; \n\n2. lawETP with about 400$ liquidity will stop draining EmberSwap.",
+    "strategy": "single-choice",
+    "options": [
+        "Yes - replace lawETP boost and add BCH/flexUSD vault",
+        "No - keep the lawETP boost"
+    ],
+    "snapshotBlock": "4679546",
+    "endBlock": "4789509"
+} 
