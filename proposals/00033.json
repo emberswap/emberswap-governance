@@ -1,0 +1,11 @@
+{
+    "title": "Replace boost LAWETP/EMBER with lawUSD/EMBER",
+    "content": "Replace the current boost allocation for LAWETP/EMBER with lawUSD/EMBER.\n\n&nbsp; \n\n Impact on users\n\nThe boost will move automatically to lawUSD/EMBER meaning we will see liquidity on lawUSD/EMBER again.\n\n&nbsp; \n\nExpected impact\n\nLess liquidity on LAWETP, more liquidity on lawUSD.\n\n&nbsp; \n\nExpected positive impact\n\nMore fees generated as lawUSD has a higher trading volume than LAWETP",
+    "strategy": "single-choice",
+    "options": [
+        "Yes - remove from LAWETP add to lawUSD",
+        "No - keep the BCH allocation"
+    ],
+    "snapshotBlock": "4852070",
+    "endBlock": "4962033"
+} 
