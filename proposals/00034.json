@@ -1,0 +1,12 @@
+{
+    "title": "Swap Vaults/Farms allocations",
+    "content": "Swap the current Vault and Farm allocation to 45% vaults, 25% farms and 30% split by liquidity.\n\n&nbsp; \n\nExpected impact\n\nAt the current rates 45% farms 25% vaults 30% split by liquidity we see the price everyday falling by new ember coming into the market. So I propose to swap the rates from vaults/farms and keep the 30% split by liquidity as is. So the new rates could be 45% vaults 25% farms 30% split by liquidity.\n\n&nbsp; \n\nImpact on users \n\nUsers will see the vaults getting higher APRs rewarding the most loyal ember holders and encouraging more people to lock their ember. This would mean less ember in circulation therefore less selling pressure. Farms will see lower APRs but ember's scarcity could bring a higher ember price and that would mean increased APRs on the farms if that were to happen.",
+    "strategy": "single-choice",
+    "options": [
+        "Yes, swap vaults/farms allocation",
+        "No, don't swap vaults/farms allocation"
+    ],
+    "snapshotBlock": "4871616",
+    "endBlock": "4981579"
+} 
+
