@@ -1,0 +1,12 @@
+{
+    "title": "Replace boost GOB/EMBER with bcBTC/EMBER",
+    "content": "Replace the current boost allocation for GOB/EMBER with bcBTC/EMBER (BlockNG-Peg Bitcoin).\n\n&nbsp; \n\nExpected positive impact\n\n Hopefully this could be one of many steps to incentivize BSC users bridging over to smartBCH.",
+    "strategy": "single-choice",
+    "options": [
+        "Yes - remove from GOB add to bcBTC",
+        "No - keep the GOB allocation"
+    ],
+    "snapshotBlock": "5084904",
+    "endBlock": "5194867"
+} 
+

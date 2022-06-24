@@ -1,0 +1,12 @@
+{
+    "title": "Add boosted farm bcBUSD/EMBER",
+    "content": "Add boosted farm bcBUSD/EMBER (BlockNG-Peg BUSD).\n\n&nbsp; \n\nExpected positive impact\n\n Hopefully this could be one of many steps to incentivize BSC users bridging over to smartBCH.",
+    "strategy": "single-choice",
+    "options": [
+        "Yes - add bcBUSD",
+        "No"
+    ],
+    "snapshotBlock": "5084904",
+    "endBlock": "5194867"
+} 
+
