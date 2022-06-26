@@ -1,0 +1,12 @@
+{
+    "title": "Replace boost flexUSD/EMBER with bcBCH/EMBER",
+    "content": "Replace the current boost allocation for flexUSD/EMBER with bcBCH/EMBER (BlockNG-Peg Bitcoin Cash). By replacing the boost flexUSD will still remain farmable as it still is in the top 3 of most liquid tokens.\n\n&nbsp; \n\nExpected positive impact\n\n Hopefully this could be one of many steps to incentivize BSC users bridging over to smartBCH.",
+    "strategy": "single-choice",
+    "options": [
+        "Yes - remove from flexUSD add to bcBCH",
+        "No - keep the flexUSD boost"
+    ],
+    "snapshotBlock": "5113046",
+    "endBlock": "5223009"
+} 
+
