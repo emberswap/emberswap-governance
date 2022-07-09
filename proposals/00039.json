@@ -1,0 +1,12 @@
+{
+    "title": "Changes in farm allocation(Increase TVL ranking and lower boosts)",
+    "content": "Change top 3 marketcap.cash farms to top 5 marketcap.cash farms(At current rankings that would be BCH, LAW, BCBCH, BCUSDT and flexUSD).\n\nChange 7 boosted farms to 1 boosted farm instead, this will be FIRE and will receive 5% of all farming allocation.\n\n&nbsp; \n\nImpact on users\n\n Lower number of farms, but higher APRs for the few farms.\n\n&nbsp; \n\nExpected positive impact\n\nBy changing from 3 to top 5 we will add BCBCH and BCUSDT which are highly attractive tokens as they are the only bridges in and out of smartBCH atm. This should hopefully help us gain liquidity and also stabilize the price of EMBER and FIRE. The current dollar pricing is wrong due to us only having liquidity in flexUSD, if we gain liquidity in BCUSDT we will be able to track dollar prices properly again.",
+    "strategy": "single-choice",
+    "options": [
+        "Yes, add changes to TVL ranking and boost allocation",
+        "No, keep the current setting"
+    ],
+    "snapshotBlock": "5294148",
+    "endBlock": "5404111"
+} 
+
