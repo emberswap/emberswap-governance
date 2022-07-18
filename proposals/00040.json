@@ -1,0 +1,11 @@
+{
+    "title": "Add SIDX Farm",
+    "content": "The recent vote for farm reallocation, had the possibly unintended consequence of removing the SIDX farm.  I propose that we take half of the flexUSD farm allocation and use it for a SIDX farm.",
+    "strategy": "single-choice",
+    "options": [
+        "Yes, add a SIDX farm",
+        "No, keep full flexUSD allocation"
+    ],
+    "snapshotBlock": "5430000",
+    "endBlock": "5539963"
+} 
