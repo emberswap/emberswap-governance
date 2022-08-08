@@ -1,0 +1,11 @@
+{
+    "title": "Set minimum allocation for new farms",
+    "content": "New farms Will enter just with the liquidity allocation. To provide an impulse for the first month, the suggestion is to add a Minimum 5% of the farm allocation the first month of any new farm. If one farm come out and in again, that Will count as a first month again.",
+    "strategy": "single-choice",
+    "options": [
+        "Yes, add a Minimum 5% allocation for new farms",
+        "No, let the farms with the calculated rewards only"
+    ],
+    "snapshotBlock": "5729721",
+    "endBlock": "5839684"
+} 
