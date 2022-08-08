@@ -1,0 +1,11 @@
+{
+    "title": "Put Your Money Where Your Mouth Is Farming Allocation",
+    "content": "TLDR: This proposal is designed to allow users to vote for farm allocations, however voting will require that you lockup EMBER-BCH LP tokens for 90 day periods to vote. \n\n\nCurrently 55% of all EMBER emissions are allocated to farming (with the remaining 45% allocated to EMBER vaults) \n\nThe 55% farm allocations are split in two ways: \n\n25% allocated to farms based on liquidity ranking on Marketcap.cash\n30% allocated to farms based on TVL on EmberSwap for those pairs\nWith 1 boosted farm for FIRE consisting of 5% of total farming allocation \n\nI propose that we reduce the Marketcap and TVL allocations to allow for user voted allocations.\nThis proposal would change farm allocations to:\n\n18% allocated to farms based on liquidity ranking on Marketcap.cash\n22% allocated to farms based on TVL on EmberSwap for those pairs\n15% allocated to farms based on user voting system proposed below\nWith 1 boosted farm for FIRE consisting of 5% of total farming allocation \n\nVoting system: \n\nUsers will be able to vote to increase allocation to their favorite EMBER-TOKEN pair.\nVotes will be made by locking EMBER-BCH LP tokens for 90 days. \nThose locked LP tokens will not earn rewards. \n\nTo avoid users voting for farming allocations to low value or fake tokens, votes can only be placed for current or past EMBER paired farms. \n\nIf a user would like to add a farm that does not already exist it must be put to a governance vote.  That vote can allow for establishing a farm with no allocation, with the intent of gaining future allocation via user vote. \n\nVotes will be tallied once per month at the same time as normal farm reallocation. \n\nThis proposal will involve some development work, priority level of this development is at the discretion of bchPete.",
+    "strategy": "single-choice",
+    "options": [
+        "Yes, add user voted farming allocation",
+        "No, keep the current system is working great"
+    ],
+    "snapshotBlock": "5726271",
+    "endBlock": "5836234"
+} 
