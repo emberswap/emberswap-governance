@@ -1,0 +1,11 @@
+{
+    "title": "Pair $FIRE and $EMBER from Treasury",
+    "content": "Our treasury has approx 1bln $FIRE and 4mln $EMBER. This proposal aims to liquidify $FIRE and $EMBER by pairing them and NOT adding them to the farm. (Only added to LP for further liquidity) ",
+    "strategy": "single-choice",
+    "options": [
+        "Yes, $FIRE and $EMBER liquidity from treasury",
+        "No, keep the tokens separate"
+    ],
+    "snapshotBlock": "5849995",
+    "endBlock": "5959958"
+} 
